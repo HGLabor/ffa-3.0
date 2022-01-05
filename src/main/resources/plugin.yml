@@ -1,0 +1,13 @@
+name: KitApiTestPlugin
+version: 1.0.0
+main: de.hglabor.kitapi.impl.KitTestServer
+api-version: 1.16
+softdepend:
+  - WorldEdit
+  - LibsDisguises
+  - ProtocolLib
+libraries:
+  - de.hglabor:kit-api:1.17.1_v1
+  - de.hglabor:localization:0.0.7
+  - de.hglabor:hglabor-utils:1.17.1_v1
+load: POSTWORLD
